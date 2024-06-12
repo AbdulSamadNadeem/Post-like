@@ -2,7 +2,7 @@ let like = document.getElementById('like')
 let laugh = document.getElementById('laugh')
 let love = document.getElementById('love')
 let counts = document.getElementById('counts')
-let number = 0
+let number = 1
 function colorchangelike(){
 
    like.style.color="#3498db"
@@ -11,7 +11,7 @@ function colorchangelike(){
 
     
     
-        counts.innerHTML=`Reacts:${number=number + 1}`
+        counts.innerHTML=`Reacts:${number}`
 
 }
 function colorchangelaugh(){
@@ -22,7 +22,7 @@ function colorchangelaugh(){
     
 
    
-        counts.innerHTML=`Reacts:${number=number + 1}`
+        counts.innerHTML=`Reacts:${number}`
 
    
 }
@@ -33,7 +33,7 @@ function colorchangelove(){
     like.style.color="#000"
     
 
-  counts.innerHTML=`Reacts:${number=number + 1}`
+  counts.innerHTML=`Reacts:${number}`
 
 
 }
